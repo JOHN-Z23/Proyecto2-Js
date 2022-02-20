@@ -24,7 +24,7 @@ while (pais != "") {
       pais = "";
       break;
     default:
-      alert("Esta pais no tiene pasajes disponibles");
+      alert("Este pais no tiene pasajes disponibles");
       pais = prompt("¿Que pais desea visitar?");
       break;
   }
