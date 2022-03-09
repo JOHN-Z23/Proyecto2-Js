@@ -1,5 +1,4 @@
- class Celular{
-   
+ class Celular{ 
 	constructor(pedido){
 		this.celular;
 		this.celular = pedido.celular
@@ -8,9 +7,7 @@
 		this.extMemoria = pedido.extMemoria
 
 	}
-
 	entregarCelular(){
-
 		if(this.celular.toUpperCase() == "SAMSUNG"){
 			
 			this.celular = "Samsung"
@@ -33,11 +30,8 @@
 			return "Aqui tiene su " + this.celular + " " + this.memoria + " memoria" 
 
 		}
-		
 	}
-
 }
-
 let celular = new Celular({celular:"",memoria:"",colorCel:"",extMemoria:""})
 celular["celular"] = prompt("¿Qué celular te quieres, Samsung o Motorola?")
 celular.memoria = prompt("¿Lo querés con 64 Gb o 128 Gb?")
